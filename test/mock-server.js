@@ -1,7 +1,7 @@
-/* Vendored from @numra/core (numra-js-core/test/mock-server.js). Keep it in
+/* Vendored from @getnumra/core (numra-js-core/test/mock-server.js). Keep it in
    step with that copy: it is the shape of the API these tests assert against,
    and a stale copy here would let this package pass while disagreeing with the
-   client it wraps. Vendored rather than imported because @numra/core ships no
+   client it wraps. Vendored rather than imported because @getnumra/core ships no
    `test/` directory — its `files` allowlist excludes it — so there is nothing
    to import once these repos are separate. */
 

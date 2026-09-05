@@ -1,11 +1,11 @@
-import { Numra, createHandlers } from '@numra/core';
+import { Numra, createHandlers } from '@getnumra/core';
 
 /* ═══════════════════════════════════════════════════════════════════════════
-   @numra/fastify — the same endpoint, Fastify-shaped
+   @getnumra/fastify — the same endpoint, Fastify-shaped
    ───────────────────────────────────────────────────────────────────────────
        await app.register(numraPlugin, { apiKey, authorize, prefix: '/api/numra' });
 
-   All the decisions live in @numra/core's createHandlers, shared with the
+   All the decisions live in @getnumra/core's createHandlers, shared with the
    Express, Next and Nuxt packages. This file is the Fastify wrapper and
    nothing else.
 
@@ -88,4 +88,4 @@ export async function numraPlugin(fastify, options = {}) {
 }
 
 export default numraPlugin;
-export { Numra, NumraError } from '@numra/core';
+export { Numra, NumraError } from '@getnumra/core';

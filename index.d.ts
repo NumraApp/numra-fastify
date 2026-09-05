@@ -1,5 +1,5 @@
 import type { FastifyInstance, FastifyRequest } from 'fastify';
-import type { Numra, NumraError } from '@numra/core';
+import type { Numra, NumraError } from '@getnumra/core';
 
 export interface NumraPluginOptions {
   /** Numra credential. Server-side only. */
@@ -52,4 +52,4 @@ export declare function numraPlugin(
 ): Promise<void>;
 
 export default numraPlugin;
-export { Numra, NumraError } from '@numra/core';
+export { Numra, NumraError } from '@getnumra/core';

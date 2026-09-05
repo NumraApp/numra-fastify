@@ -1,4 +1,4 @@
-# Contributing to @numra/fastify
+# Contributing to @getnumra/fastify
 
 Patches are welcome. This plugin sits in front of a credential that reads a
 shared fraud ledger and spends a merchant's paid quota, so the bar for a change
@@ -43,14 +43,14 @@ Express, Next and Nuxt packages.
 So:
 
 - Behaviour that should be identical across those four belongs in
-  **`@numra/core`**, not here. Fixing it here alone is how four copies of
+  **`@getnumra/core`**, not here. Fixing it here alone is how four copies of
   "deny by default" become three.
 - Anything Fastify-shaped — registration, encapsulation, content-type parsers,
   the reply object — belongs here.
 - A change on the browser side of the wire belongs in
   [numra-browser](https://github.com/NumraApp/numra-browser).
 
-If your fix lands in `@numra/core`, this package picks it up as a dependency
+If your fix lands in `@getnumra/core`, this package picks it up as a dependency
 bump; say so in the pull request.
 
 ## The conformance gate

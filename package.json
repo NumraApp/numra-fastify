@@ -1,7 +1,7 @@
 {
-  "name": "@numra/fastify",
+  "name": "@getnumra/fastify",
   "version": "1.0.0",
-  "description": "Fastify plugin for Numra — the backend endpoint @numra/react calls. Holds your API key so the browser never does.",
+  "description": "Fastify plugin for Numra — the backend endpoint @getnumra/react calls. Holds your API key so the browser never does.",
   "license": "MIT",
   "homepage": "https://numra.ma",
   "repository": { "type": "git", "url": "git+https://github.com/NumraApp/numra-fastify.git" },
@@ -15,7 +15,7 @@
   "types": "./index.d.ts",
   "exports": { ".": { "types": "./index.d.ts", "default": "./src/index.js" } },
   "scripts": { "test": "node --test \"test/*.test.js\"" },
-  "dependencies": { "@numra/core": "^1.0.0" },
+  "dependencies": { "@getnumra/core": "^1.0.0" },
   "peerDependencies": { "fastify": ">=4" },
   "devDependencies": { "fastify": "^4.28.1" },
   "publishConfig": { "access": "public", "provenance": true }

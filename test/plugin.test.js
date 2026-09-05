@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import Fastify from 'fastify';
 import { createHmac } from 'node:crypto';
-import { Numra } from '@numra/core';
+import { Numra } from '@getnumra/core';
 import { numraPlugin } from '../src/index.js';
 import { startMockServer, LOOKUP_OK } from './mock-server.js';
 
